@@ -8,10 +8,16 @@
   flex-direction: row;
 
   /* aligns my elements along the main axis */
-  justify-content: space-between;
+  justify-content: center;
 
   /* aligns my elements along the cross axis */
   align-items: flex-start;
+
+  /* adds gaps between your elements */
+  gap: 50px;
+
+  /* As the screen gets smaller the items will go the next line */
+  flex-wrap: wrap;
 
 
 
