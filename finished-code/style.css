@@ -6,6 +6,15 @@
   display: flex;
 
   flex-direction: row;
+
+  /* aligns my elements along the main axis */
+  justify-content: space-between;
+
+  /* aligns my elements along the cross axis */
+  align-items: flex-start;
+
+
+
 }
 
 .flex-item {
